@@ -6,6 +6,10 @@ sort: 1
 굉장히 기본적인 스톱워치 앱을 만들어보도록 하겠습니다.   
 디자인은.. 없습니다.     
 기본적이고 베이직한 UI이니까 import 받으셔서 커스텀해보시면 좋을거같아요 ^-^   
+https://github.com/kangdan-dev/android.git       
+app 모듈에 있습니다~   
+
+
 
 
 ## 리사이클러 뷰 기초
