@@ -26,6 +26,7 @@ app 모듈에 있습니다~
 ## 예시로 쉽게 이해하기 
                   
 #### ✻ ViewHolder
+<span style="font-size:75%">
 뷰홀더는 뷰 객체들로 구성되어있습니다.     
 텍스트뷰, 이미지뷰, 버튼 등을 이용&배치하여 데이터들이 어떻게 보여질지 정합니다.    
      
@@ -45,13 +46,18 @@ app 모듈에 있습니다~
 <img width="458" alt="스크린샷 2024-05-19 오후 4 50 42" src="https://github.com/kangdan-dev/kangdan-dev.github.io/assets/17777689/fed258da-f668-496c-8058-5db38fd21af2">      
 아마도 이런배치일것같습니다.     
 
-이것이 뷰홀더입니다.   
+이것이 뷰홀더입니다.   </span>
 
+
+
+                      
 #### ✻ Adapter
-어댑터는 뷰홀더에 데이터를 대입합니다.
-
-저 뷰 홀더에 각각 데이터를 지정하여 대입해줍니다.     
-ex) titleTextView.text = datas[position]     //값을 세팅 
+<span style="font-size:75%">
+어댑터는 뷰홀더에 데이터를 대입합니다.      
+        
+저 뷰 홀더에 각각 데이터를 지정하여 대입해줍니다.       
+ex) titleTextView.text = datas[position]     //값을 세팅     
+</span>
 
 
 
