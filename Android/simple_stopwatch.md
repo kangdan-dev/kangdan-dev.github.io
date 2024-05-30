@@ -25,13 +25,16 @@ sort: 2
 뷰홀더는 틀(붕어빵틀)     
 어댑터는 재료(팥, 슈 등)    
 이라고 이해하시면 쉽습니다.     
-&nbsp;     
+
+
+              
 예를들어,     
 "게시판 공지사항" 목록을 리사이클러뷰로 만들어본다면    
 먼저 목록에 어떤 정보가 보여질지 정해야합니다.    
+              
 
-
-   
+               
+                     
 신규여부, 제목, 내용, 날짜, 작성자가 있도록 보여주고싶다면    
 <img width="301" alt="스크린샷 2024-05-19 오후 4 49 37" src="https://github.com/kangdan-dev/kangdan-dev.github.io/assets/17777689/c018b608-17ca-4bd8-ace4-3464a7686103">      
 이러한 모습이 되겠죠. 
@@ -49,7 +52,7 @@ sort: 2
      
                       
 ### > Adapter
-<span style="font-size:70%">      
+
 자~ 그림은 그렸고 이제 그림에 데이터를 넣어볼까요?
 어댑터는 뷰홀더에 데이터를 **대입**합니다.      
            
@@ -61,7 +64,6 @@ class SampleAdapter () {
 }  
 ```
                  
-</span>
 
 ## 자세한건 코드로!
 https://github.com/kangdan-dev/android   
