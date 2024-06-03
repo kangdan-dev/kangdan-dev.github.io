@@ -2,17 +2,17 @@
 sort: 3
 ---
 
-# ActicityResultLauncher      
+# ActivityResultLauncher      
 예전엔 startActivityForResult를 통해     
 액티비티 전환 사후처리를 했으나, 요즘은 권장하지 않습니다.   
 그럼 뭘 쓰느냐~   
-바로 ActicityResultLauncher를 사용합니다.
+바로 ActivityResultLauncher를 사용합니다.
 		   
 		   
 				   
-__ActicityResultLauncher 생성__     
+__ActivityResultLauncher 생성__     
 ```Note
-val requestLauncher : ActicityResultLauncher<Intent> = registerForActivityResult(ActivityResultContracts.StartActivityForResult()){      
+val requestLauncher : ActivityResultLauncher<Intent> = registerForActivityResult(ActivityResultContracts.StartActivityForResult()){      
     val resultData = it.data?getStringExtra("result")    
     Log.i("LOG resultdata = $resultData");    
 }
@@ -32,7 +32,7 @@ requestLauncher.launch(intent)
 
 ### 자세히 살펴보기
 ActivityResultLauncher 이용하려면 먼저       
-> 1. ActicityResultLauncher 객체 만들기 (registerForActivityResult() 이용하기)     
+> 1. ActivityResultLauncher 객체 만들기 (registerForActivityResult() 이용하기)     
 >         
 > 2. 1번 객체에 contract와 callback 등록하기
 >    
