@@ -35,13 +35,17 @@ ActivityResultLauncher 이용하려면 먼저
 > 3. launch()함수로 실행              
 
                 
-####Contract가 뭐지?
-액티비티를 실행할때 인텐트를 발생시키는 역할을 합니다. 
+#### Contract가 뭐지?
+액티비티를 실행할때 인텐트를 발생시키는 역할을 합니다.   
 대표적인 Contract는   
-* RequestPermission :
+* RequestPermission : 권한요청, 허락여부파악
 * PickContact : 선택한 연락처의 Uri 획득
 * TackPicture : 사진촬영, 저장, 비트맵
 -- * StartActivityForResult : 인텐트발생, 액티비티 실행결과 획득 --
+
+  </br>  
+  </br>  
+  </br>  
   
 
 
